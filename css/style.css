@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poopins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #057a8d;
+    --secondary-color: #f1c111;
+    --white-color: #ffffff;
+    --dark-color: #171819;
+    --project-bg: #f0f8ff;
+    --menu-bg: #0c8195;
+
+    --title-font-family: 'Monserrat-Bold', sans-serif;
+    --reguler-font-family: 'Montserrat', sans-serif;
+    --menu-font-family: 'poopins', sans-serif;
+}
+
+.container-fluid{
+    padding: 7% 7%;
+}
+
+
+body {
+    background-color: var(--white-color);
+    font-family: var(--reguler-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--title-font-family);
+    color: var(--white-color);
+}
+
+.navbar-brand {
+    font-family: var(--menu-font-family);
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+.big-heading {
+    font-size: 2.5rem;
+}
+
+.title-bg {
+    background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%);
+}
+
+.title-image {
+    position: relative;
+    top: 1rem;
+}
